@@ -1,4 +1,4 @@
-## Requirements
+After reviewing the code, here are the essential dependencies you need to list:
 
 - **Python 3.7+**
 - **SpaCy**  
@@ -14,8 +14,12 @@
   - Install via: `pip install matplotlib`
 - **Seaborn**  
   - Install via: `pip install seaborn`
+- **Scikit-learn**  
+  - Install via: `pip install scikit-learn`
 - **pdfkit**  
   - Install via: `pip install pdfkit`
 - **wkhtmltopdf**  
   - For Linux: `apt-get install -y wkhtmltopdf`  
   - Or download and install from the official website based on your operating system
+
+The other modules (e.g., `os`, `re`, `math`, `collections`, `urllib`, etc.) are part of Python's standard library and do not require separate installation.
