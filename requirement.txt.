@@ -1,1 +1,21 @@
+## Requirements
 
+- **Python 3.7+**
+- **SpaCy**  
+  - Install via: `pip install spacy`  
+  - Download the model: `python -m spacy download en_core_web_md`
+- **NLTK**  
+  - Install via: `pip install nltk`
+- **NumPy**  
+  - Install via: `pip install numpy`
+- **Pandas**  
+  - Install via: `pip install pandas`
+- **Matplotlib**  
+  - Install via: `pip install matplotlib`
+- **Seaborn**  
+  - Install via: `pip install seaborn`
+- **pdfkit**  
+  - Install via: `pip install pdfkit`
+- **wkhtmltopdf**  
+  - For Linux: `apt-get install -y wkhtmltopdf`  
+  - Or download and install from the official website based on your operating system
