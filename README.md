@@ -54,6 +54,6 @@ GitHub’s native notebook preview does not fully render the custom HTML/CSS use
    **pdfkit & wkhtmltopdf** (for converting HTML to PDF)
 
 ## **Future Work**
-- **Develop an Auditory System**:Instead of written input, I would like to explore the possibility of doing something similar with auditory input. or iput that is more suitable for children 
+- **Develop an Auditory System**:Instead of written input, I would like to explore the possibility of doing something similar with auditory input. or input that is more suitable for children 
 
 
