@@ -9,12 +9,12 @@ This project processes an academic English text (~500 words) and classifies word
 - **Adverbs (ADV)**
 - **Connectives (CONNECTIVES)**
 
-It then applies **semantic clustering** using SpaCy embeddings and KMeans. Finally, the results are visualized with bar charts, a pie chart, and a styled HTML table, which can be exported to PDF. The ultimate goal is to support the development of **AAC (Augmentative and Alternative Communication)** boards.
+It then applies semantic clustering using SpaCy embeddings and KMeans. Finally, the results are visualized with bar charts, a pie chart, and a styled HTML table, which can be exported to PDF. The ultimate goal is to support the development of AAC (Augmentative and Alternative Communication) table.
 
 ## **Methodology**
 
 1. **Data Acquisition**  
-   - Downloads an academic English text (~500 words).  
+   - Downloads an academic English text arounf 500 words  
    - Cleans the text (removing punctuation and filtering unwanted words).
 
 2. **Text Processing**  
@@ -24,22 +24,22 @@ It then applies **semantic clustering** using SpaCy embeddings and KMeans. Final
 
 3. **Classification**  
    - Sorts words into categories based on their POS tags.  
-   - Selects the **top 12 most frequent words** from each category for deeper analysis.
+   - Selects the top 12 most frequent words from each category for deeper analysis.
 
 4. **Semantic Clustering**  
-   - Converts words into numerical vectors using **SpaCy’s en_core_web_md** model.  
-   - Groups words into **3 clusters** (4 words each) per category using **KMeans**.  
+   - Converts words into numerical vectors using SpaCy’s en_core_web_mb model.  
+   - Groups words into 3 clusters (4 words each) per category using KMeans.  
    - Sorts words within each cluster by frequency.
 
 5. **Visualization**  
    - **Bar Charts & Pie Chart**: Illustrates frequency distribution across categories.  
    - **HTML Table**: Displays clustered words, color-coded by category, with clear visual separation between clusters.  
-   - **PDF Export**: Converts the HTML table to a PDF using **pdfkit** and **wkhtmltopdf**.
+   - **PDF Export**: Converts the HTML table to a PDF using pdfkit** and wkhtmltopdf.
    - 
 ## **Results**
-- Identifies **key frequent words** in each grammatical category.  
-- Clusters words based on **semantic proximity** to highlight similarities.  
-- Creates a color-coded **AAC table** that can be directly used to build communication boards.
+- Identifies key frequent words in each grammatical category.  
+- Clusters words based on semantic proximity to highlight similarities.  
+- Creates a color-coded AAC table that can be directly used to build communication boards.
 
 ## **Technologies Used**
 -  **Python** (for text processing)  
