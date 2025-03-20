@@ -41,6 +41,8 @@ It then applies semantic clustering using SpaCy embeddings and KMeans. Finally, 
 - Clusters words based on semantic proximity to highlight similarities.  
 - Creates a color-coded AAC table that can be directly used to build communication boards.
 
+
+   **important note**
  Note on Custom Table Colors
 GitHub’s native notebook preview does not fully render the custom HTML/CSS used in the AAC table. As a result, you may not see the colored cells when viewing this notebook on GitHub. To view the table with all its styling, please open the notebook in a Jupyter environment (locally or on Google Colab)
 
