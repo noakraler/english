@@ -18,7 +18,7 @@ This project processes an academic English text (~500 words) and classifies word
 3. **Classification**  
    - Sorts words into categories based on their POS tags.  
    - Selects the top 12 most frequent words from each category and analyzed them
-   - 
+      
 4. **Semantic Clustering**  
    - Converts words into numerical vectors.  
    - Groups words into 3 clusters (4 words each) per category using KMeans.  
