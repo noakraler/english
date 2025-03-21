@@ -28,7 +28,7 @@ This project processes an academic English text (~500 words) and classifies word
    - **Bar Charts & Pie Chart**: Illustrates frequency  and frequency distribution within  the categories .  
    - **HTML Table**: Displays clustered words, color-coded by category, with clear visual separation between clusters.  
    - **PDF Export**: Converts the HTML table to a PDF and download it.
-   - 
+      
 ## **Results**
 
 the result show the identifies key frequent words in each grammatical category. and the clustring  words groups based on  their semantic proximity.  that creates a color-coded AAC table that can be directly used to build communication boards.
