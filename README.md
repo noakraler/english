@@ -9,7 +9,7 @@ This project processes an academic English text (~500 words) and classifies word
 ## **Methodology**
 
 1. **Data Acquisition**  
-   - upload an  English text arounf 500 words  
+   - upload an  English text around 500 words  
    - Cleans the text
      
 2. **Text Processing**   : Tokenization, Lemmatization anf POS Tagging
