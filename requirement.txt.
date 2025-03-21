@@ -1,5 +1,3 @@
-After reviewing the code, here are the essential dependencies you need to list:
-
 - **Python 3.7+**
 - **SpaCy**  
   - Install via: `pip install spacy`  
